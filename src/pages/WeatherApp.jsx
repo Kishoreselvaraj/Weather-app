@@ -33,7 +33,6 @@ function WeatherApp() {
     <div className='weather'>
       <div className="whetherCard">
         <Search 
-        search={search}
         setsearch={setsearch}/>
         <Content 
         city={city}/>

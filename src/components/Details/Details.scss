@@ -8,13 +8,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        p{
+            margin: 5px;
+        }
         .humi{
             width: 40px;
             height: 40px;
+            
         }
         .speed{
             width: 40px;
             height: 40px;
+            
         }
 
     }
