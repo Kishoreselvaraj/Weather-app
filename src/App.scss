@@ -14,16 +14,16 @@
         border-radius: 8px;          
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         @media (max-width: 768px) {
-            width: 80%; /* Adjust width to 80% on tablets */
-            height: 100%; /* Allow height to adjust based on content */
-            padding: 20px; /* Add padding for content spacing */
+            width: 80%; 
+            height: auto; 
+            padding: 20px; 
         }
         
         @media (max-width: 480px) {
-            width: 90%; /* Slightly narrower width on smaller screens */
-            height: 100%;
+            width: 90%; 
+            height: auto;
             padding: 15px;
-            border-radius: 6px; /* Slightly smaller radius for compact look */
+            border-radius: 6px; 
         }
         
     }
