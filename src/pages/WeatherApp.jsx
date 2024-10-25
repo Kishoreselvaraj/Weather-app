@@ -4,7 +4,7 @@ import Search from '../components/Search/Search'
 import Content from '../components/WeatherComponents/Content'
 import Details from '../components/Details/Details'
 function WeatherApp() {
-  const [search, setsearch] = useState('chennai')
+  const [search, setsearch] = useState('coimbatore')
   const [city, setcity] = useState(null)
   // console.log(search)
 
@@ -19,7 +19,7 @@ function WeatherApp() {
 
       const result = await response.json();
       setcity(result); 
-      console.log(result, "result");
+      // console.log(result, "result");
   }
    catch (error) {
       console.error("Failed to fetch weather data:", error);
