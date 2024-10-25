@@ -1,0 +1,17 @@
+.weatherShow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .weather-icon{
+        width: 300px;
+        height: 250px;
+    }
+    .temp{
+        font-size: 50px;
+    }
+    .city{
+        font-size: 30px;
+    }
+    
+}
